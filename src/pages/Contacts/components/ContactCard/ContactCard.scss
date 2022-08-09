@@ -1,0 +1,78 @@
+.contact-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D6D6D6;
+    border-radius: 1.5em;
+    margin-bottom: 4em;
+    width: 45em;
+    height: 20em;
+    transform: scale(1);
+    transition: transform 200ms ease;
+
+    &--active {
+        transform: scale(1.1);
+    }
+
+    &__form {}
+
+    &__fieldset {
+        display: flex;
+        flex-direction: column;
+
+        & label {
+            font-style: normal;
+            font-weight: 500;
+            color: black;
+            font-size: 2em;
+            margin-bottom: 0.6em;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 2em;
+        }
+    }
+
+    &__input {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        background: #D6D6D6;
+        padding: 0;
+
+        &--active {
+            background: #ffffff;
+            padding: 0.3em;
+        }
+    }
+
+    &__card-button {
+        position: absolute;
+        right: 1em;
+        cursor: pointer;
+
+        &--edit {
+            top: 1em;
+        }
+
+        &--cancel {
+            top: 3em;
+        }
+
+        &--confirm {
+            top: 5em;
+        }
+
+        &--delete {
+            top: 9em;
+        }
+
+        & svg {
+            width: 1.5em;
+            height: 1.5em;
+        }
+    }
+
+}
