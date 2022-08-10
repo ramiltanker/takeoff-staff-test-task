@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import logo from "./logo.svg";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import SignInWrapper from "./pages/SignIn/SignIn";
 import ContactsWrapper from "./pages/Contacts/Contacts";
