@@ -26,7 +26,7 @@ const SignIn: FC<SignInProps> = () => {
 
   useEffect(() => {
     if (loginSuccess) {
-      navigate("/contacts");
+      navigate("/");
     }
   }, [loginSuccess]);
 

@@ -24,7 +24,7 @@ const Header: FC<HeaderProps> = () => {
         <nav className="header__nav">
           <ul className="header__list">
             <li className="header__li">
-              <Link to="/contacts" className="header__link">
+              <Link to="/" className="header__link">
                 Контакты
               </Link>
             </li>
