@@ -15,5 +15,11 @@
       "name": "Игорь",
       "phone": "89774058866"
     }
+  ],
+  "users": [
+    {
+      "email": "test@mail.ru",
+      "password": "test123"
+    }
   ]
 }

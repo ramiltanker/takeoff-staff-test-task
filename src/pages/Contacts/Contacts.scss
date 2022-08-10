@@ -79,4 +79,28 @@
         height: 2em;
         align-self: center;
     }
+
+    &__search {
+        width: 60em;
+        margin-top: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__search-input {
+        height: 2em;
+        font-size: 2em;
+        margin-right: 1em;
+    }
+
+    &__search-button {
+        width: 6em;
+        height: 2em;
+        font-size: 2em;
+
+        &:not(:last-child) {
+            margin-right: 1em;
+        }
+    }
 }

@@ -34,8 +34,10 @@ const ContactCard: FC<ContactCardProps> = ({ name, phone, id }) => {
     setPhoneValue(e.target.value);
   };
 
-  const handleSubmitEdit = () => {
+  const handleSubmitEdit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     dispatch(updateContact(id, nameValue, phoneValue));
+    setIsInputDisabled(true);
   };
 
   const handleCancel = () => {
@@ -44,7 +46,8 @@ const ContactCard: FC<ContactCardProps> = ({ name, phone, id }) => {
     setPhoneValue(phone);
   };
 
-  const handleDelete = () => {
+  const handleDelete = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    e.preventDefault();
     dispatch(deleteContact(id));
   };
 
