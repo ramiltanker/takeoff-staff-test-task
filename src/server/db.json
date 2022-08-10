@@ -1,11 +1,6 @@
 {
   "contacts": [
     {
-      "id": "9b1deb4d-3b7d-4bad-9bcc-2b0d7b3dcb9k",
-      "name": "Саша",
-      "phone": "89774058866"
-    },
-    {
       "id": "9b1deb4d-3b7d-4bad-9bcc-2b0d7b3dcb6b",
       "name": "Паша",
       "phone": "89774058866"
@@ -14,6 +9,11 @@
       "id": "9b1deb4d-3b7d-4bad-9bcc-2b0d7b3dcb4h",
       "name": "Игорь",
       "phone": "89774058866"
+    },
+    {
+      "id": "68fb8e35-3320-491f-9d82-b157471ad8f0",
+      "name": "Оля",
+      "phone": "88383907640"
     }
   ],
   "users": [

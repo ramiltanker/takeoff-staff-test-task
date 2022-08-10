@@ -23,7 +23,7 @@ const ProtectedAuthorized: FC<IProtectedAuthorizedProps> = ({
   return !loggedIn ? (
     <Outlet />
   ) : (
-    <Navigate to={"/contacts"} state={{ from: location }} replace />
+    <Navigate to={"/"} state={{ from: location }} replace />
   );
 };
 
